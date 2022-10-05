@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  font-family: 'Montserrat';
+}
+
+body{
+  background: rgb(227, 220, 220);
+}
+
+marquee h1{
+  padding-top: 100px;
+}
+
+.nav{
+  background-color: #636e72;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-link{
+  color: white;
+  margin-top: 0%;
+}
+
+.image{
+  width: 100px;
+  height: 50px;
+  margin-right: 950px;
+}
+
+.main{
+  background-image: url(/image/aboutimage.png);
+  padding-bottom: 60px;
+}
+
+.aboutheading{
+  color: #2d3436;
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 250px;
+}
+
+.section{
+  margin-left: 194px;
+  padding-top: 50px;
+  font-size: 16px;
+}
+
+.footer{
+  padding-top: 250px;
+  font-size: 16px;
+  margin-left: 194px;
+}
+
+.socials{
+  display: flex;
+  margin-left: 166px;
+  padding-top: 70px;
+}
+
+.list-items{
+  list-style: none;
+  margin-right: 10px;
+}
+
+.heading{
+  color: #2d3436;
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.heading>p{
+  font-size: 24px;
+}
+
+.container{
+  padding-top: 60px;
+}
+
+.btn-outline-secondary{
+  color: white;
+  border-color: #2d3436;
+  margin: 20px;
+}
+
+.downloadbtn{
+  margin-right: 10px;
+  border-radius: 10px;
+  padding-bottom: 2px;
+}
+
+.footer{
+  color: #2d3436;
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 250px;
+}
+
+.aboutparagraph{
+  padding-top: 60px;
+}
+
+.card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card:hover {
+  background-color: grey;
+  color: white;
+  transition: 1.5s;
+}
+
+.projectpragraph{
+  margin-left: 120px;
+  color:  #2d3436;
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 250px;
+}
+
+.card-img-top{
+  object-fit: cover;
+  background: transparent;
+  text-shadow: 80px;
+}
+
+.card img {
+  height: 20em;
+  margin-top: 5%;
+}
+
+.card {
+  height: 30%;
+}
